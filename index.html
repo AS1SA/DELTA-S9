@@ -43,7 +43,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="DELTA LOGO.webp">
-<title>PBL15-HUE</title>
+<title>DELTA-S9</title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -59,7 +59,7 @@
 position: fixed;
 bottom: 40px;  /* المسافة من أسفل الصفحة */
 right: 30px;   /* المسافة من الجهة اليمنى */
-background-color: #6b46c1; /* لون الخلفية */
+background-color: #020005; /* لون الخلفية */
 color: white;
 border: none;
 border-radius: 100%; /* لتصميم الزر بشكل دائري */
@@ -72,7 +72,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .back-to-top-btn:hover {
-background-color: #553c9a; /* التفاعل عند التمرير على الزر */
+background-color: #000000; /* التفاعل عند التمرير على الزر */
 transform: scale(1.1);
 }
 
@@ -83,7 +83,7 @@ padding: 2rem;
 border-radius: 16px;
 box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 transition: transform 0.3s;
-width: 190px; /* كبرنا حجم الكارت */
+width: 220px; /* كبرنا حجم الكارت */
 text-align: center;
 }
 
@@ -124,11 +124,11 @@ flex-wrap: wrap;
 }
 
 .colorful-word:nth-child(1) {
-color: #7a2983; /* بنفسجي */
+color: #073a87; /* بنفسجي */
 animation: fadeIn 1s ease-in-out;
 }
 .colorful-word:nth-child(2) {
-color: #078742; /* أخضر */
+color: #cd913d; /* أخضر */
 animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -154,7 +154,7 @@ scroll-behavior: smooth;
       
   }
   .navbar {
-      background: linear-gradient(90deg, #7a2983, #078742);
+      background: linear-gradient(90deg, #cd913d, #073a87);
       color: white;
       padding: 0.2rem;
       position: sticky;
@@ -184,7 +184,7 @@ scroll-behavior: smooth;
   }
   .hero img {
       width: 500px;
-      margin-bottom: 1rem;
+      margin-bottom: 5rem;
       transform: translateX(-60px); /* تحريك الفيديو نحو اليمين بمقدار 20px */
   }
   .video-container {
@@ -336,7 +336,7 @@ transition: background-color 0.3s ease, color 0.3s ease; /* تأثير الان�
 
 /* تخصيص الوضع الليلي في العناصر الأخرى */
 .dark .navbar {
-background: linear-gradient(90deg, #4e8c5d, #6b1a6d);
+background: linear-gradient(90deg, #073a87, #cd913d);
 }
 
 .dark .footer-logos {
@@ -404,12 +404,12 @@ box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 
 #themeToggle:hover {
 transform: rotate(180deg); /* الزر سيلتوي عند التمرير */
-background-color: #4e8c5d; /* تغيير اللون عند التمرير */
+background-color: #000000; /* تغيير اللون عند التمرير */
 }
 
 #themeToggle {
 padding: 8px 12px; /* زيادة المسافة حول الأيقونة */
-border: 2px solid #4e8c5d; /* إضافة حدود حول الزر */
+border: 2px solid #000000; /* إضافة حدود حول الزر */
 cursor: pointer; /* تغيير الشكل إلى يد عند التمرير */
 transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -460,9 +460,9 @@ transition: transform 0.3s ease, background-color 0.3s ease;
   <div class="container mx-auto flex flex-row-reverse justify-between items-center">
       <a href="#" class="text-2xl font-bold text-white order-1 md:order-none">DELTA-S9</a>
       <ul class="flex flex-wrap space-x-reverse space-x-5 order-2 md:order-none">
-      <li><a href="#" class="hover:underline text-white">Home</a></li>
-      <li><a href="#team" class="hover:underline text-white">Our Team</a></li>
       <li><a href="#Our Presentation" class="hover:underline text-white">Our Presentation</a></li>
+      <li><a href="#team" class="hover:underline text-white">Our Team</a></li>
+      <li><a href="#" class="hover:underline text-white">Home</a></li>
     </ul>
     <button id="themeToggle" class="text-2xl p-2 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition" title="Toggle theme">
       🌙
@@ -491,24 +491,28 @@ transition: transform 0.3s ease, background-color 0.3s ease;
   -->
   
 
-  <!-- Right Side (Logo, Text, Buttons) -->
+  <!-- Right Side (Logo, Text, Buttons) 
   <div class="right-side text-center md:text-left mb-8 md:mb-0">
-      <!-- Logo at the top, centered -->
+       Logo at the top, centered 
       <div class="logo-container mb-4">
-          <img src="DELTA LOGO.webp" alt="PBL15 HUE Logo" class="mx-auto mb-4">
+          <img src="DELTA LOGO.webp" alt="DELTA Logo" class="mx-auto mb-4">
       </div>
 
-      <!-- Text under the logo -->
+       Text under the logo 
+
       <p class="text-lg mb-4">Your gateway to learn about our medical team</p>
 
-      <!-- Buttons under the text -->
+      Buttons under the text
+
       <div class="flex justify-end gap-4 mb-6">
-          <!-- زر Our Team -->
+
+           زر Our Team 
+
           <a href="#team" class="bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white py-3 px-8 rounded-full shadow-lg hover:bg-gradient-to-l hover:scale-105 hover:shadow-2xl transition-all duration-300">
               Our Team
           </a>
           
-          <!-- زر Our Poster -->
+          زر Our Poster 
           <a href="#Our Presentation" class="bg-gradient-to-r from-green-500 via-green-600 to-green-700 text-white py-3 px-8 rounded-full shadow-lg hover:bg-gradient-to-l hover:scale-105 hover:shadow-2xl transition-all duration-300">
               Our Presentation
           </a>
@@ -516,6 +520,7 @@ transition: transform 0.3s ease, background-color 0.3s ease;
   </div>
 </div>
 </section>
+-->
 
 <!-- Team Members Section -->
 <section id="team" class="section"data-aos="fade-up">
@@ -572,7 +577,7 @@ transition: transform 0.3s ease, background-color 0.3s ease;
       <span class="colorful-word">Our</span>
     </h2>
   <p class="text-lg mb-6">Our latest work is about ....SOON......</p>
-  <div class="poster-grid container mx-auto">
+  <div class="container mx-auto">
 
       <div class="poster-card card">
           <img src="" alt="Poster">
